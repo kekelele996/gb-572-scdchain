@@ -1,0 +1,40 @@
+/* 年鉴 / 编年史 design tokens — warm paper, deep navy ink, bronze rules.
+   No pure black or pure white anywhere in the palette. */
+:root {
+  --paper: oklch(95.6% 0.017 86);
+  --paper-2: oklch(92.6% 0.021 84);
+  --paper-3: oklch(88.8% 0.024 82);
+  --paper-deep: oklch(84.5% 0.028 80);
+  --ink: oklch(27% 0.042 258);
+  --ink-2: oklch(38% 0.035 256);
+  --ink-3: oklch(52% 0.028 252);
+  --ink-4: oklch(64% 0.02 250);
+  --navy: oklch(31.5% 0.062 258);
+  --navy-deep: oklch(23.5% 0.048 260);
+  --navy-soft: oklch(42% 0.05 258);
+  --rust: oklch(53% 0.112 43);
+  --rust-deep: oklch(44% 0.1 40);
+  --rust-soft: oklch(89% 0.045 55);
+  --sage: oklch(50% 0.055 152);
+  --sage-soft: oklch(90% 0.028 150);
+  --gold: oklch(72% 0.09 80);
+  --gold-soft: oklch(92% 0.04 85);
+  --danger: oklch(49% 0.13 25);
+  --danger-soft: oklch(91% 0.035 25);
+  --rule: oklch(78% 0.022 80);
+  --rule-soft: oklch(85% 0.018 82);
+
+  --font-serif: 'Libre Baskerville', 'Songti SC', 'Noto Serif SC', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Public Sans', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', system-ui, sans-serif;
+
+  --step--1: clamp(0.78rem, 0.76rem + 0.1vw, 0.84rem);
+  --step-0: clamp(0.9rem, 0.87rem + 0.14vw, 0.98rem);
+  --step-1: clamp(1.05rem, 1rem + 0.25vw, 1.18rem);
+  --step-2: clamp(1.28rem, 1.18rem + 0.5vw, 1.52rem);
+  --step-3: clamp(1.6rem, 1.4rem + 0.95vw, 2.1rem);
+  --step-4: clamp(2.05rem, 1.7rem + 1.7vw, 3rem);
+
+  --radius: 3px;
+  --shadow-paper: 0 1px 0 var(--rule-soft), 0 14px 34px -26px oklch(35% 0.05 258 / 0.55);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
